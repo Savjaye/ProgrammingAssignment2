@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
+## This function returns a list of functions that a future function can utilize to cache the inverse of a function. 
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
